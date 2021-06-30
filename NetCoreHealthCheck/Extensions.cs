@@ -72,6 +72,7 @@ namespace NetCoreHealthCheck
                     }
                 }
                 // swallow this type of exception - just move on with what you can load
+                // since we can load our own projects, and those are the only ones we care about
                 catch (ReflectionTypeLoadException) { }
             }
         }
