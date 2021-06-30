@@ -9,7 +9,7 @@ namespace NetCoreHealthCheckPOC.DataAccess
     {
         public async Task<HealthCheckResult> CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken = new CancellationToken())
         {
-            throw new Exception("I was thrown");
+            throw new Exception("I was thrown", new Exception("this is an inner exception"));
         }
     }
 }

@@ -8,6 +8,7 @@
     <Company></Company>
     <Product>NetCoreHealthCheck</Product>
     <Description>automates the creation of health check enpoint that targets any class implementing the IHealthCheck interface</Description>
+    <Version>1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

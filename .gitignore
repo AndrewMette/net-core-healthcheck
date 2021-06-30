@@ -38,3 +38,7 @@
 .vs/NetCoreHealthCheck/v16/TestStore/0/testlog.manifest
 /.vs/NetCoreHealthCheck
 /NetCoreHealthCheckPOC/NetCoreHealthCheckPOC.csproj.user
+/NetCoreHealthCheckPOC.DataAccess/bin/Debug/netstandard2.1
+/NetCoreHealthCheckPOC.DataAccess/obj
+/NetCoreHealthCheckPOC.Domain/bin/Debug/netstandard2.1
+/NetCoreHealthCheckPOC.Domain/obj

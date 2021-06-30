@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NetCoreHealthCheckPOC.Domain\NetCoreHealthCheckPOC.Domain.csproj" />
     <ProjectReference Include="..\NetCoreHealthCheck\NetCoreHealthCheck.csproj" />
   </ItemGroup>
 

@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreHealthCheckPOC.DataAccess", "NetCoreHealthCheckPOC.DataAccess\NetCoreHealthCheckPOC.DataAccess.csproj", "{07A80CE8-2327-4758-9A35-60145F450AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreHealthCheckPOC.Domain", "NetCoreHealthCheckPOC.Domain\NetCoreHealthCheckPOC.Domain.csproj", "{E8BC09DD-01AF-42B7-9C56-A49702755B3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{97E8C0EC-BB4A-4578-8987-AFEEACD870D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E8C0EC-BB4A-4578-8987-AFEEACD870D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E8C0EC-BB4A-4578-8987-AFEEACD870D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A80CE8-2327-4758-9A35-60145F450AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A80CE8-2327-4758-9A35-60145F450AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A80CE8-2327-4758-9A35-60145F450AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A80CE8-2327-4758-9A35-60145F450AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8BC09DD-01AF-42B7-9C56-A49702755B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BC09DD-01AF-42B7-9C56-A49702755B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BC09DD-01AF-42B7-9C56-A49702755B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BC09DD-01AF-42B7-9C56-A49702755B3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
